@@ -1,0 +1,7 @@
+<p-sidebar [(visible)]="display">
+    <p-listbox [options]="routes" [(ngModel)]="selectedRoute" optionLabel="name"></p-listbox>
+</p-sidebar>
+
+<p-toolbar>
+    <p-button type="button" (click)="display = true" icon="pi pi-bars"></p-button>
+</p-toolbar>
